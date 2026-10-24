@@ -1,0 +1,20 @@
+{
+  "categories": [
+    "Bills",
+    "Study",
+    "Career",
+    "Photos",
+    "Installers",
+    "Archives",
+    "Documents",
+    "Other"
+  ],
+  "extension_rules": {
+    "Photos": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".heic"],
+    "Installers": [".exe", ".msi", ".dmg"],
+    "Archives": [".zip", ".rar", ".7z", ".tar", ".gz"]
+  },
+  "skip_extensions": [".crdownload", ".part", ".tmp"],
+  "skip_if_modified_within_minutes": 10,
+  "default_model": "gemma3:4b"
+}

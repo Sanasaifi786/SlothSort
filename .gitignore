@@ -1,0 +1,23 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# SlothSort runtime & tests
+test_downloads/
+slothsort_undo.json
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
